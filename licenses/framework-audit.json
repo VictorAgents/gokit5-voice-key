@@ -1,0 +1,38 @@
+[
+  {
+    "path": "cores/esp32/HWCDC.cpp",
+    "matches_upstream": true,
+    "upstream_sha256": "c5ed5fdd05aa0df9b74d390812643599223f96b459256718d0ad328aeaba6a8a",
+    "local_sha256": "c5ed5fdd05aa0df9b74d390812643599223f96b459256718d0ad328aeaba6a8a"
+  },
+  {
+    "path": "libraries/BLE/src/BLEHIDDevice.cpp",
+    "matches_upstream": true,
+    "upstream_sha256": "7b0486e97d41d531323e11d401f12df497a44287148ff52316aab1a3aa4e30d9",
+    "local_sha256": "7b0486e97d41d531323e11d401f12df497a44287148ff52316aab1a3aa4e30d9"
+  },
+  {
+    "path": "libraries/BLE/src/BLECharacteristic.cpp",
+    "matches_upstream": true,
+    "upstream_sha256": "92cb0af0d3220a4799cb6ba281b98f67981bd1eb1fe5c511cab7daa46eb119d1",
+    "local_sha256": "92cb0af0d3220a4799cb6ba281b98f67981bd1eb1fe5c511cab7daa46eb119d1"
+  },
+  {
+    "path": "libraries/BLE/src/BLESecurity.cpp",
+    "matches_upstream": true,
+    "upstream_sha256": "22532bf37242be5f22432d7de655d60421e2095eff94346d9c486f9f16041116",
+    "local_sha256": "22532bf37242be5f22432d7de655d60421e2095eff94346d9c486f9f16041116"
+  },
+  {
+    "path": "libraries/Network/src/NetworkClient.cpp",
+    "matches_upstream": true,
+    "upstream_sha256": "58c662b52a6fddce366a1b592b5720b33a92d81f2881955f4e81ad2f0f933b15",
+    "local_sha256": "58c662b52a6fddce366a1b592b5720b33a92d81f2881955f4e81ad2f0f933b15"
+  },
+  {
+    "path": "libraries/Network/src/NetworkServer.cpp",
+    "matches_upstream": true,
+    "upstream_sha256": "ea19ff92cfc75a9652080c57f2c81efbe47404f997f3acbf1a5a8bb185e19def",
+    "local_sha256": "ea19ff92cfc75a9652080c57f2c81efbe47404f997f3acbf1a5a8bb185e19def"
+  }
+]

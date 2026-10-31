@@ -1,0 +1,9 @@
+*.bin binary
+*.mp4 binary
+*.gif binary
+*.png binary
+*.jpg binary
+# Preserve vendored license/source text verbatim; do not reformat upstream code.
+third_party/** -whitespace
+firmware/libraries/BLE/** -whitespace
+licenses/** -whitespace

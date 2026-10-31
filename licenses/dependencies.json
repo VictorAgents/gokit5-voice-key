@@ -1,0 +1,239 @@
+[
+  {
+    "name": "pyinstaller",
+    "version": "6.22.3",
+    "license": "GPLv2-or-later with a special exception which allows to use PyInstaller to build and distribute non-free programs (including commercial ones)",
+    "urls": [
+      "Homepage, https://pyinstaller.org",
+      "Documentation, https://pyinstaller.org",
+      "Source Code, https://github.com/pyinstaller/pyinstaller",
+      "Release Notes, https://pyinstaller.org/en/stable/CHANGES.html"
+    ]
+  },
+  {
+    "name": "setuptools",
+    "version": "84.2.1",
+    "license": "MIT",
+    "urls": [
+      "Source, https://github.com/pypa/setuptools",
+      "Documentation, https://setuptools.pypa.io/",
+      "Changelog, https://setuptools.pypa.io/en/stable/history.html"
+    ]
+  },
+  {
+    "name": "pywin32-ctypes",
+    "version": "0.2.3",
+    "license": "BSD-3-Clause",
+    "urls": []
+  },
+  {
+    "name": "pyinstaller-hooks-contrib",
+    "version": "2026.9",
+    "license": "unspecified",
+    "urls": []
+  },
+  {
+    "name": "packaging",
+    "version": "26.3",
+    "license": "Apache-2.0 OR BSD-2-Clause",
+    "urls": [
+      "Documentation, https://packaging.pypa.io/",
+      "Source, https://github.com/pypa/packaging"
+    ]
+  },
+  {
+    "name": "pefile",
+    "version": "2024.8.26",
+    "license": "MIT",
+    "urls": []
+  },
+  {
+    "name": "altgraph",
+    "version": "0.17.5",
+    "license": "MIT",
+    "urls": [
+      "Documentation, https://altgraph.readthedocs.io/en/latest/",
+      "Issue tracker, https://github.com/ronaldoussoren/altgraph/issues",
+      "Repository, https://github.com/ronaldoussoren/altgraph"
+    ]
+  },
+  {
+    "name": "sounddevice",
+    "version": "0.5.6",
+    "license": "MIT",
+    "urls": [
+      "Documentation, https://python-sounddevice.readthedocs.io/",
+      "Repository, https://github.com/spatialaudio/python-sounddevice/",
+      "Issues, https://github.com/spatialaudio/python-sounddevice/issues"
+    ]
+  },
+  {
+    "name": "cffi",
+    "version": "2.1.1",
+    "license": "MIT-0",
+    "urls": [
+      "Documentation, https://cffi.readthedocs.io/",
+      "Changelog, https://cffi.readthedocs.io/en/latest/whatsnew.html",
+      "Download, https://github.com/python-cffi/cffi/releases",
+      "Contact, https://groups.google.com/forum/#!forum/python-cffi",
+      "Source Code, https://github.com/python-cffi/cffi",
+      "Issue Tracker, https://github.com/python-cffi/cffi/issues"
+    ]
+  },
+  {
+    "name": "pycparser",
+    "version": "3.12",
+    "license": "BSD-3-Clause",
+    "urls": [
+      "Homepage, https://github.com/eliben/pycparser"
+    ]
+  },
+  {
+    "name": "numpy",
+    "version": "2.5.4",
+    "license": "BSD-3-Clause AND 0BSD AND MIT AND Zlib AND CC0-1.0",
+    "urls": [
+      "homepage, https://numpy.org",
+      "documentation, https://numpy.org/doc/",
+      "source, https://github.com/numpy/numpy",
+      "download, https://pypi.org/project/numpy/#files",
+      "tracker, https://github.com/numpy/numpy/issues",
+      "release notes, https://numpy.org/doc/stable/release"
+    ]
+  },
+  {
+    "name": "pyserial",
+    "version": "3.5",
+    "license": "BSD",
+    "urls": []
+  },
+  {
+    "name": "esptool",
+    "version": "5.6.0",
+    "license": "GPL-2.0-or-later",
+    "urls": [
+      "Homepage, https://github.com/espressif/esptool/",
+      "Documentation, https://docs.espressif.com/projects/esptool/",
+      "Source, https://github.com/espressif/esptool/",
+      "Tracker, https://github.com/espressif/esptool/issues/",
+      "Changelog, https://github.com/espressif/esptool/blob/master/CHANGELOG.md"
+    ]
+  },
+  {
+    "name": "esp-pylib",
+    "version": "1.2.0",
+    "license": "Apache-2.0",
+    "urls": [
+      "Homepage, https://github.com/espressif/esp-pylib",
+      "Repository, https://github.com/espressif/esp-pylib",
+      "Source, https://github.com/espressif/esp-pylib/",
+      "Tracker, https://github.com/espressif/esp-pylib/issues/",
+      "Changelog, https://github.com/espressif/esp-pylib/blob/master/CHANGELOG.md"
+    ]
+  },
+  {
+    "name": "rich",
+    "version": "15.0.0",
+    "license": "MIT",
+    "urls": [
+      "Documentation, https://rich.readthedocs.io/en/latest/",
+      "Homepage, https://github.com/Textualize/rich"
+    ]
+  },
+  {
+    "name": "Pygments",
+    "version": "2.21.0",
+    "license": "BSD-2-Clause",
+    "urls": [
+      "Homepage, https://pygments.org",
+      "Documentation, https://pygments.org/docs",
+      "Source, https://github.com/pygments/pygments",
+      "Bug Tracker, https://github.com/pygments/pygments/issues",
+      "Changelog, https://github.com/pygments/pygments/blob/master/CHANGES"
+    ]
+  },
+  {
+    "name": "markdown-it-py",
+    "version": "4.2.0",
+    "license": "unspecified",
+    "urls": [
+      "Documentation, https://markdown-it-py.readthedocs.io",
+      "Homepage, https://github.com/executablebooks/markdown-it-py"
+    ]
+  },
+  {
+    "name": "mdurl",
+    "version": "0.1.2",
+    "license": "unspecified",
+    "urls": [
+      "Homepage, https://github.com/executablebooks/mdurl"
+    ]
+  },
+  {
+    "name": "click",
+    "version": "8.5.0",
+    "license": "BSD-3-Clause",
+    "urls": [
+      "Changes, https://click.palletsprojects.com/page/changes/",
+      "Chat, https://discord.gg/pallets",
+      "Documentation, https://click.palletsprojects.com/",
+      "Donate, https://palletsprojects.com/donate",
+      "Source, https://github.com/pallets/click/"
+    ]
+  },
+  {
+    "name": "rich-click",
+    "version": "1.9.9",
+    "license": "MIT License\n\nCopyright (c) 2022 Phil Ewels\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.\n",
+    "urls": [
+      "Documentation, https://github.com/ewels/rich-click",
+      "Homepage, https://github.com/ewels/rich-click",
+      "Issues, https://github.com/ewels/rich-click/issues",
+      "Repository, https://github.com/ewels/rich-click"
+    ]
+  },
+  {
+    "name": "colorama",
+    "version": "0.4.6",
+    "license": "unspecified",
+    "urls": [
+      "Homepage, https://github.com/tartley/colorama"
+    ]
+  },
+  {
+    "name": "intelhex",
+    "version": "2.3.0",
+    "license": "BSD",
+    "urls": []
+  },
+  {
+    "name": "PyYAML",
+    "version": "6.0.3",
+    "license": "MIT",
+    "urls": [
+      "Bug Tracker, https://github.com/yaml/pyyaml/issues",
+      "CI, https://github.com/yaml/pyyaml/actions",
+      "Documentation, https://pyyaml.org/wiki/PyYAMLDocumentation",
+      "Mailing lists, http://lists.sourceforge.net/lists/listinfo/yaml-core",
+      "Source Code, https://github.com/yaml/pyyaml"
+    ]
+  },
+  {
+    "name": "reedsolo",
+    "version": "1.7.0",
+    "license": "Public Domain",
+    "urls": []
+  },
+  {
+    "name": "cryptography",
+    "version": "50.0.2",
+    "license": "Apache-2.0 OR BSD-3-Clause",
+    "urls": [
+      "changelog, https://cryptography.io/en/latest/changelog/",
+      "documentation, https://cryptography.io/",
+      "homepage, https://github.com/pyca/cryptography",
+      "issues, https://github.com/pyca/cryptography/issues",
+      "source, https://github.com/pyca/cryptography/"
+    ]
+  }
+]

@@ -1,0 +1,10 @@
+{
+  "baseline": "Arduino-ESP32 3.3.12",
+  "upstream_source": "https://github.com/espressif/arduino-esp32/tree/3.3.12/libraries/BLE",
+  "modified_date": "2026-10-31",
+  "file": "firmware/libraries/BLE/src/BLEService.cpp",
+  "upstream_sha256": "2b71699e1962cdc37a54ace429ebdd408b0e40b379d621d427add5bb5a93b252",
+  "patched_sha256": "45e806615c9972644ffbbc23c899d118ed5a12ea6cb40596b80dd7c63b7373b7",
+  "change": "skip only the same characteristic object, not all objects with an existing UUID",
+  "license": "Apache-2.0 in the modified file; other files retain their own headers"
+}

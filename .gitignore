@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+build/
+dist/
+*.spec
+!Gokit5Community.spec
+private-data/
+backups/
+local-config/
+logs/
+*.wav
+*.log
+*.tmp

@@ -1,0 +1,4 @@
+esptool==5.6.0
+pyserial==3.5
+sounddevice==0.5.6
+numpy==2.5.4

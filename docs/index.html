@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="zh-CN">
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Gokit5 Voice Key · 无线语音与快捷键</title>
+<meta name="description" content="同款四键 Gokit5 的 Windows 备份刷机工具、无线语音输入和蓝牙快捷键控制台。查看真实安装录屏与完整使用说明。">
+<style>
+:root{color-scheme:light;--ink:#192b40;--muted:#617286;--blue:#2460d5;--line:#e0e7f0}
+*{box-sizing:border-box}body{margin:0;font-family:system-ui,-apple-system,"Segoe UI","Microsoft YaHei",sans-serif;color:var(--ink);background:#f5f7fb;line-height:1.7}
+main{max-width:1080px;margin:auto;padding:40px 24px 28px}nav{display:flex;justify-content:space-between;gap:16px;align-items:center;font-size:14px}a{color:var(--blue);text-decoration:none}a:hover{text-decoration:underline}.brand{font-weight:750;color:var(--ink)}.tag{color:var(--muted);font-size:13px}
+header{max-width:760px;margin:66px 0 32px}.eyebrow{color:var(--blue);font-size:13px;letter-spacing:.12em;font-weight:700}h1{font-size:clamp(32px,5vw,56px);line-height:1.22;letter-spacing:-.04em;margin:13px 0 20px}header p{max-width:660px;color:var(--muted);font-size:18px;margin:0 0 24px}.actions{display:flex;gap:12px;flex-wrap:wrap}.button{display:inline-block;background:var(--blue);color:white;border-radius:10px;padding:11px 20px;font-weight:650}.button:hover{text-decoration:none;background:#174fbb}.secondary{background:white;color:var(--ink);border:1px solid var(--line)}.secondary:hover{background:#eef2f8}.hint{font-size:13px;color:var(--muted);margin-top:12px}
+.demo{background:white;border:1px solid var(--line);border-radius:18px;padding:22px;box-shadow:0 10px 36px #21395708}.section-head{display:flex;gap:16px;align-items:baseline;justify-content:space-between}h2{font-size:23px;letter-spacing:-.03em;margin:0 0 15px}.section-head span{font-size:13px;color:var(--muted)}video{display:block;max-width:100%;width:100%;max-height:650px;background:#ebeff5;border-radius:11px}.caption{margin:13px 0 0;font-size:13px;color:var(--muted)}
+.features{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin:22px 0 40px}.card{background:white;border:1px solid var(--line);border-radius:14px;padding:20px}.number{font-size:12px;color:var(--blue);font-weight:750}h3{font-size:18px;margin:8px 0}.card p{font-size:14px;color:var(--muted);margin:0}.steps{display:grid;grid-template-columns:1fr 1fr;gap:14px 32px;margin:0 0 36px}.step{padding:16px 0;border-top:1px solid var(--line)}.step strong{display:block}.step p{font-size:14px;color:var(--muted);margin:5px 0 0}.notice{border-left:3px solid #95b0d5;padding:3px 17px;font-size:14px;color:var(--muted);margin:28px 0}.footer{padding-top:25px;border-top:1px solid var(--line);color:var(--muted);font-size:12px}.footer a{margin-right:16px}
+@media(max-width:650px){main{padding:22px 16px}header{margin:42px 0 26px}.features,.steps{grid-template-columns:1fr}.features{gap:10px;margin-bottom:28px}.section-head{display:block}.demo{padding:14px}.section-head span{display:block;margin:-7px 0 15px}header p{font-size:16px}.tag{max-width:150px;text-align:right}}
+</style>
+<main>
+<nav><a class="brand" href="https://github.com/VictorAgents/gokit5-voice-key">Gokit5 Voice Key</a><span class="tag">开源 · Windows x64 · 测试版</span></nav>
+<header>
+<div class="eyebrow">让手边的四颗键，多做一点事</div>
+<h1>按住说话。<br>松手，回到手头的事。</h1>
+<p>把同款四键 Gokit5 改造成无线语音输入按钮，也是一块能自己定义的蓝牙小键盘。快捷键、开关机音效和彩色灯光，都能在电脑上设置。</p>
+<div class="actions"><a class="button" href="https://github.com/VictorAgents/gokit5-voice-key/releases/tag/v0.13.0-alpha.1">下载 Windows 安装程序</a><a class="button secondary" href="https://github.com/VictorAgents/gokit5-voice-key#readme">完整安装与使用说明</a></div>
+<div class="hint">普通用户无需 Python 或 Arduino。仅支持已确认接线的四键 Wi-Fi 版，首次安装先做完整个人备份。</div>
+</header>
+<section class="demo" aria-label="真实安装演示">
+<div class="section-head"><h2>真实安装，分步看一遍</h2><span>USB → 配网 → 蓝牙 → 控制台</span></div>
+<video controls playsinline preload="metadata" poster="assets/install-poster.jpg"><source src="assets/install-demo.mp4" type="video/mp4">浏览器不支持播放，请<a href="assets/install-demo.mp4">下载视频</a>。</video>
+<p class="caption">真实同款设备操作录屏，经剪辑、等待加速和隐私遮挡。电脑已安装 VB-CABLE 的步骤明确显示自动跳过；具体实测边界见<a href="https://github.com/VictorAgents/gokit5-voice-key/blob/main/RELEASE.json">验证清单</a>。</p>
+</section>
+<section class="features" aria-label="主要功能">
+<article class="card"><span class="number">01 / 声音走 Wi-Fi</span><h3>拿起设备，说话</h3><p>设备麦克风把声音送到电脑。按住说话、松手停止；接收端未连接时可通过蓝牙右 Alt，改用电脑麦克风。</p></article>
+<article class="card"><span class="number">02 / 按键走蓝牙</span><h3>四颗键，自己定义</h3><p>点按或按住快捷键，加减组合短按也能配置。映射同步到设备后，蓝牙快捷键可以独立使用。</p></article>
+<article class="card"><span class="number">03 / 让它像你的设备</span><h3>声音和颜色都可改</h3><p>导入最长 6 秒的开关机音效，选择固定色、呼吸、彩虹或按键反馈，调整亮度与空闲熄灯。</p></article>
+</section>
+<h2>第一次使用，先分清四件事</h2>
+<section class="steps">
+<article class="step"><strong>1. USB 数据线：备份、安装、更新</strong><p>直连电脑、核对四键板与串口，工具读取两份完整 Flash 校验后才刷入。配置完成可拔线使用。</p></article>
+<article class="step"><strong>2. Wi-Fi：传设备麦克风的声音</strong><p>在本地 USB 配网窗口输入 2.4GHz 网络信息。电脑和设备需在同一可互通局域网，密码不发到聊天。</p></article>
+<article class="step"><strong>3. 蓝牙：传快捷键</strong><p>同时按住＋／－约 3 秒至灯闪，在 Windows 添加 Gokit5 Keys-xxxxxx。蓝牙配对成功不代表声音链路已完成。</p></article>
+<article class="step"><strong>4. 电脑：接收声音并交给输入法</strong><p>向导检查虚拟麦克风，缺少时准备官方 VB-CABLE；按要求安装/重启。输入法需选对麦克风，并设置对应快捷键。</p></article>
+</section>
+<p class="notice">这是非官方测试项目。原厂功能会被替换，备份只属于原设备；请另存独立介质。首次管理员安装确认、蓝牙配对和输入法选择仍需用户完成。Wi-Fi 长期稳定性、电池采样与恢复验证的限制已写入 README。</p>
+<div class="actions"><a class="button secondary" href="https://github.com/VictorAgents/gokit5-voice-key#以后怎么更新固件">查看固件更新步骤</a><a class="button secondary" href="https://github.com/VictorAgents/gokit5-voice-key#控制台能修改什么">查看所有控制台设置</a></div>
+<footer class="footer" style="margin-top:38px"><a href="https://github.com/VictorAgents/gokit5-voice-key">源代码</a><a href="https://github.com/VictorAgents/gokit5-voice-key/blob/main/LICENSE">GPL-3.0-or-later</a><a href="https://vb-audio.com/Cable/">VB-CABLE 官网与捐赠</a><p>品牌及第三方软件分别属于各自权利人；本项目不内置 VB-CABLE 驱动，不提供原厂通用镜像。</p></footer>
+</main>
+</html>

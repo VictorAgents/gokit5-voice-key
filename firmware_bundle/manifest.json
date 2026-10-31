@@ -1,0 +1,33 @@
+{
+  "version": "0.13.0-alpha.1",
+  "profile": "gizwits-4key-s3-16m-8m",
+  "flash_bytes": 16777216,
+  "maturity": "alpha",
+  "second_device_verified": false,
+  "files": [
+    {
+      "offset": 0,
+      "name": "bootloader.bin",
+      "bytes": 19968,
+      "sha256": "84bb365666003b051f564d04380d0cf5d9d85c420ddafe9fc863071b49e49bfc"
+    },
+    {
+      "offset": 32768,
+      "name": "partitions.bin",
+      "bytes": 3072,
+      "sha256": "148b959cbff1c38aa8e1d5c0ba9d612c54997b945e56a63f41223eef650653a1"
+    },
+    {
+      "offset": 57344,
+      "name": "boot_app0.bin",
+      "bytes": 8192,
+      "sha256": "f94c5d786a7a8fab06ac5d10e33bf37711a6697636dc037559ea19cc410a17f0"
+    },
+    {
+      "offset": 65536,
+      "name": "application.bin",
+      "bytes": 1240448,
+      "sha256": "345ff138e4635ce14377c8d3d053c680c55170d4d1c9ab5b070d29df59df3362"
+    }
+  ]
+}
