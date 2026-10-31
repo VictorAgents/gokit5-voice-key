@@ -7,7 +7,7 @@ import zipfile
 FILES=['app.py','runtime.py','flasher.py','installer.py','receiver.py','hotkeys.py','settings.py','hid_config.py','cable_setup.py','device_options.py','audio_assets.py','battery_status.py',
        'control_panel.py','startup.py','run_receiver.py','setup_wifi.py','requirements.txt','requirements-build.txt','requirements-lock.txt',
        'README.md','AUDIO_SETUP_README.md','requirements-audio-setup.txt','Gokit5Community.spec','LICENSE','THIRD_PARTY.md','RELEASE.json','AGENTS.md','.gitignore','.gitattributes']
-FOLDERS=['firmware','firmware_bundle','licenses','tools','third_party','docs','.github']
+FOLDERS=['firmware','firmware_bundle','licenses','tools','third_party','docs','skills','.github']
 FORBIDDEN={'backups','local-config','private-data','devices','__pycache__','.venv','logs','downloads','vault'}
 
 

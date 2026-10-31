@@ -8,6 +8,18 @@
 
 [![真实设备安装与控制台演示](docs/assets/install-poster.jpg)](https://victoragents.github.io/gokit5-voice-key/)
 
+## 让你的 Agent 帮忙安装
+
+已提供可供 Codex 或其他能读取 Markdown 指令的 Agent 使用的 [安装技能 SKILL.md](skills/gokit5-install/SKILL.md)，也可[下载独立技能包](https://github.com/VictorAgents/gokit5-voice-key/releases/download/v0.13.0-alpha.1/gokit5-install-skill.zip)。解压后保持 `gokit5-install/`整个目录及其 `references/`，让 Agent 阅读入口文件即可。
+
+可以直接把这段话发给你的 Agent：
+
+> 请阅读 https://github.com/VictorAgents/gokit5-voice-key/blob/main/skills/gokit5-install/SKILL.md 及其引用的Windows流程，协助我安装 Gokit5 Voice Key。先核对 Windows、同款板型和 USB，再下载校验程序。写入前解释原厂功能替换和完整双备份；Wi-Fi密码由我在本机窗口输入，管理员确认、蓝牙配对及实体测试由我配合。没有桌面工具时请引导我操作，不要绕过安装器直接刷Flash。完成后分别报告备份、刷写、连接和真实语音测试结果。
+
+使用支持本地技能的 Codex 时，将整个 `gokit5-install`目录放入自己的技能目录（通常为 `~/.codex/skills/`），让运行环境重新发现技能后，用 `$gokit5-install`调用；具体加载方式以自己的 Agent 为准。仅阅读文件也可以，不强依赖某一种插件。
+
+技能不能替用户插拔设备、按实体键或确认Windows管理员提示；本版本安装/更新/恢复仍通过图形安装器完成。技能包是附加文档，不改变已发布EXE、固件及其配套源码快照。
+
 ## 三种连接有什么区别
 
 | 连接 | 用途 | 日常需要吗 |
